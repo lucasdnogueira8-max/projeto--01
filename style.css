@@ -1,7 +1,7 @@
 body{
     margin: 0;
-    font-family: fantasy;
-    background-color: aqua;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color:aqua;
 }
 header{
     background-color: rgb(94, 0, 117);
@@ -21,7 +21,7 @@ header{
 h1{
     margin: 0;
     font-size: 50px;
-    color: aqua;
+    color: white;
 
 }
 nav{
@@ -42,4 +42,45 @@ nav a{
 }
 nav a:hover{
     color: rgb(94, 0, 117);
+}main{
+    padding: 21px;
+}
+section h2{
+    color:  rgb(94, 0, 117);
+    border-bottom: 2px solid rgb(94, 0, 117) ;
+    padding-bottom: 5px;
+}
+.produtos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 20px;
+    justify-content: center;
+    text-align: center;
+}
+.produto{
+background-color:rgb(94, 0, 117) ;
+padding: 18px;
+border-radius: 15px;
+box-shadow: 0 0 10px rgb(94, 0, 117) ;
+}
+.produto img{
+    width: 800px;
+    border-radius: 4px;
+}
+.produto h4{
+    margin: 10px 0 6px;
+    font-size: 19px;
+    color: white;
+}
+.produto p{
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 10px;
+    color: white;
+}
+#preco{
+    font-size: 21px;
+    color: white;
+    font-weight: bold;
 }
